@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beranda</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Informasi Anime</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="li-navbar">
+                <a href="index.html" class="a-navbar">Beranda</a>
+            </li>
+            <li class="li-navbar">
+                <a href="Daftar Anime.html" class="a-navbar">Daftar Anime</a>
+            </li>
+            <li class="li-navbar">
+                <a href="Tentang Kami.html" class="a-navbar">Tentang Kami</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="about-info">
+            <h2>Selamat datang di Informasi Anime</h2>
+            <p>Kami adalah penggemar anime yang berusaha untuk memberikan informasi terbaru dan terbaik tentang anime kepada penggemar anime di seluruh dunia.</p>
+        </section>
+        <section class="team-members">
+            <h2>Tim Kami</h2>
+            <ul>
+                <li><img src="pngwing.com (3).png" alt="Anggota Tim 1"><span>Ciel</span></li>
+                <!-- Tambahkan lebih banyak anggota tim sesuai kebutuhan -->
+                <!-- Sisipkan kode Disqus ke dalam halaman web Anda -->
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://informasi-3.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Informasi Anime</p>
+    </footer>
+    <script id="dsq-count-scr" src="//informasi-3.disqus.com/count.js" async></script>
+</body>
+</html>
